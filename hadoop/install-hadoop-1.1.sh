@@ -1,4 +1,6 @@
 #!/bin/bash
+# UPDATED BY YOUSSEF NAIM
+
 tar -xvf hadoop-2.7.3.tar.gz
 
 

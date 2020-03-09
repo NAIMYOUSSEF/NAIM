@@ -1,6 +1,4 @@
 #!/bin/bash
-# UPDATED BY YOUSSEF NAIM
-
 tar -xvf hadoop-2.7.3.tar.gz
 
 
@@ -28,11 +26,12 @@ echo "export HADOOP_OPTS=-Djava.net.preferIPv4Stack=true" >> hadoop-env.sh
 
 #get configuration files
 rm core-site.xml
-wget https://raw.github.com/okaram/scripts/master/hadoop/conf/core-site.xml
+https://github.com/NAIMYOUSSEF/NAIM/tree/master/hadoop/conf
+wget https://raw.github.com/NAIMYOUSSEF/NAIM/tree/master/hadoop/conf/core-site.xml
 rm mapred-site.xml
-wget https://raw.github.com/okaram/scripts/master/hadoop/conf/mapred-site.xml
+wget https://raw.github.com/NAIMYOUSSEF/NAIM/tree/master/hadoop/conf/mapred-site.xml
 rm hdfs-site.xml
-wget https://raw.github.com/okaram/scripts/master/hadoop/conf/hdfs-site.xml
+wget https://raw.github.com/NAIMYOUSSEF/NAIM/tree/master/hadoop/conf/hdfs-site.xml
 
 # chmod, symbolic links
 cd /usr/local
